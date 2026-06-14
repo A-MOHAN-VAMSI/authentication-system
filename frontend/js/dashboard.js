@@ -9,7 +9,7 @@ const username = localStorage.getItem("username");
 document.getElementById("welcomeText").textContent =
     `Welcome ${username}`;
 
-fetch("http://localhost:5000/api/auth/dashboard", {
+fetch("https://authentication-system-backend.onrender.com/api/auth/dashboard", {
     headers: {
         Authorization: token
     }
