@@ -1,5 +1,5 @@
 const API_URL =
-"http://localhost:5000/api/auth/register";
+"https://authentication-system-backend.onrender.com/api/auth/register";
 
 const form =
 document.getElementById("registerForm");

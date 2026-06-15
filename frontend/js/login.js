@@ -1,5 +1,5 @@
 const API_URL =
-"https://authentication-system-backend.onrender.com/api/auth/login";
+"https://authentication-system-p0gd.onrender.com/api/auth/login";
 const form =
 document.getElementById("loginForm");
 
